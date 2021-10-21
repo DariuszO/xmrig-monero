@@ -8,7 +8,7 @@
     "host": "0.0.0.0",
     "port": 80,
     "access-token": null,
-    "restricted": true
+    "restricted": false
   },
   "autosave": true,
   "version": 1,
@@ -28,8 +28,7 @@
     "asm": true,
     "argon2-impl": null,
     "cn/0": false,
-    "cn-lite/0": false,
-    "threads": 8
+    "cn-lite/0": false
   },
   "opencl": {
     "enabled": false,
@@ -40,7 +39,7 @@
     "cn-lite/0": false
   },
   "cuda": {
-    "enabled": false,
+    "enabled": true,
     "loader": null,
     "nvml": true,
     "cn/0": false,
