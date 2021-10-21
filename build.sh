@@ -1,5 +1,5 @@
 #!/bin/bash
-docker build . --tag cniweb/xmrig:6.7.1
-docker tag cniweb/xmrig:6.7.1 cniweb/xmrig:latest
-docker push cniweb/xmrig:6.7.1
-docker push cniweb/xmrig:latest
+docker build . --tag truesqn/xmrig:6.15.2
+docker tag truesqn/xmrig:6.15.2 truesqn/xmrig:latest
+docker push truesqn/xmrig:6.15.2
+docker push truesqn/xmrig:latest
