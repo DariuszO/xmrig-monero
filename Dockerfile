@@ -7,13 +7,12 @@ RUN   apk --no-cache upgrade && \
         libuv-dev \
         build-base \
         openssl-dev \
-        cuda \
         libmicrohttpd-dev && \
-      git clone https://github.com/xmrig/xmrig-cuda xmrig && \
+      git clone https://github.com/xmrig/xmrig && \
       cd xmrig && \
-      git checkout v6.15.1 && \
+      git checkout v6.15.2 && \
       mkdir build && \
-      cmake -DWITH_HWLOC=OFF -DCUDA_LIB=/usr/local/cuda/lib64/stubs/libcuda.so -DCUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda . && \
+      cmake -DWITH_HWLOC=OFF . && \
       make && \
       apk del \
         build-base \
