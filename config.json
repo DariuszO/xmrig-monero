@@ -7,13 +7,13 @@
     "enabled": true,
     "host": "0.0.0.0",
     "port": 80,
-    "access-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c",
+    "access-token": null,
     "restricted": true
   },
   "autosave": true,
   "version": 1,
   "background": false,
-  "colors": false,
+  "colors": true,
   "randomx": {
     "init": -1,
     "numa": true
@@ -54,8 +54,8 @@
       "algo": null,
       "coin": null,
       "url": "pool.hashvault.pro:443",
-      "user": "4AEGLF3WuPx5EqNbxEB9FW9uFEHNecCKmJuwvGZSo3qJ7Nr9gDQ3s3ciSs42XoFz59ifBmJHLPmd1cisepaSofuSHiJE4gR",
-      "pass": "ainize",
+      "user": "TRTLuyePTSwLJqfTyNhFJrUhyM7h51XzuMYLKUFjP2RxXgoAma2w6GhD2uG2cKsm3NBpx9BC2YZAH1HFfE1rN8zQVDwz9TfkKAC",
+      "pass": "x",
       "rig-id": null,
       "nicehash": false,
       "keepalive": false,
